@@ -1,0 +1,32 @@
+@use 'src/styles/vars';
+
+.search__input {
+    background-color: vars.$light-color;
+    border:none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 50%;
+  }
+  .search__btn {
+  background-color: vars.$light-color;
+  border:none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: vars.$primary-color;
+  font-weight: bold;
+  border-radius: 10px 0 0 10px;
+  width: 25%;
+  text-align: left;
+  
+    &List {
+  background-color: vars.$light-color;
+  border:none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: vars.$primary-color;
+  font-weight: bold;
+  border-radius: 0 10px 10px 0;
+  width: 25%;
+  text-align: right;
+    }
+  }

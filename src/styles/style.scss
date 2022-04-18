@@ -1,0 +1,12 @@
+@use 'reset';
+@use 'vars';
+
+body {
+  font-family: sans-serif;
+  background-color: vars.$primary-color;
+}
+.app {
+  width:70%;
+  height: 500px;
+  margin: 1em auto;
+}
