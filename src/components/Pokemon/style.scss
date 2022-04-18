@@ -1,0 +1,12 @@
+@use 'src/styles/vars';
+
+.card {
+    
+  background-color: vars.$dark-color;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 1rem;
+  color: white;
+   
+}

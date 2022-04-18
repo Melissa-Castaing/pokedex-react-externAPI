@@ -1,13 +1,13 @@
 import pokedata from '../../data/pokedex.json';
+import Pokemon from '../Pokemon';
+import './style.scss';
 
 export default function AllPokemons() {
   return (
     <div className="pokemon">
       {
                 pokedata.map((pkmn) => (
-                  <h1 key={pkmn.id}>
-                    {pkmn.name.french}
-                  </h1>
+                  <Pokemon key={pkmn.id} />
                 ))
             }
     </div>
